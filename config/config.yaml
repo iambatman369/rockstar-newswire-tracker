@@ -9,7 +9,7 @@ mergeFeeds: true    # If true, all enabled genres are merged into one feed.xml. 
 # Discord Configuration
 # You can also set this using the DISCORD_WEBHOOK_URL environment variable (recommended for Docker).
 # If the environment variable is set, it will take precedence over this value.
-webhookUrl: "YOUR_WEBHOOK_URL_HERE"
+webhookUrl: "https://discord.com/api/webhooks/1502078064090419321/YcfyeI4y5r9vnjPqmIE765lgKsuG7m7ay1AYPgU4HUBmMzeMMMv9DFFX-zVI6qwNBQ9a"
 
 # Discord Bot Profile
 discordProfileName: "Rockstar Newswire Tracker"
@@ -21,14 +21,14 @@ dateFormat: "DD/MM/YYYY"
 
 # Number of recent articles to check for updates.
 # Default is 5. Minimum is 1.
-checkLimit: 3
+checkLimit: 5
 
 # Refresh Interval 
 # Time in MINUTES (default: 120 = 2 hours)
 # Examples: 
 #   60  = 1 hour
 #   1440 = 1 day
-refreshInterval: 120
+refreshInterval: 30
 
 # News Types (Genres)
 # Uncomment the categories you want to track.
